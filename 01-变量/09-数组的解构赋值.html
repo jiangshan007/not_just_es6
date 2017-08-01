@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var arr = [1,2,3];
+			//var a = arr[0];
+			//var b = arr[1];
+			//var c = arr[2];
+			var [a,b,c] = arr;
+			console.log(a); //1
+			console.log(b); //2
+			console.log(c); //3
+			
+			let [,,d] = [23,44,5];
+			console.log(d); // 5
+			
+			let [e,[f,g]] = [9,[56,23]];
+			console.log(e); //9
+			console.log(f); //56
+			console.log(g); //23
+			
+			let [aaa,bbb,ccc] = [23];
+			console.log(aaa); //23
+			console.log(bbb); //undefined
+			console.log(ccc); //undefined
+			
+			
+		</script>
+	</body>
+</html>
